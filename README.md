@@ -10,7 +10,7 @@ When a `www.typemoon.net` page contains this editor iframe, the script enables t
 <iframe src="https://www.typemoon.net/plugin/editor/smarteditor2/SmartEditor2Skin.html">
 ```
 
-The warning applies to normal page exits such as link navigation, form submission, refresh, tab close, back, and forward while the iframe is present. If the iframe is removed, the warning is disabled.
+The warning applies to normal page exits such as link navigation, refresh, tab close, back, and forward while the iframe is present. The real write completion form submission (`form[name="fwrite"]` posting to `/bbs/write_update.php`) is allowed without a leave warning. If the iframe is removed, the warning is disabled.
 
 Modern browsers control the dialog text and may only show the warning after the user has interacted with the page.
 
